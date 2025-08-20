@@ -1,0 +1,27 @@
+<p id="avg_age"></p>
+<p id="name"></p>
+<script>
+
+// navn og alder
+const user_name1 = "far";
+const user_age1 = 37;
+
+const user_name2 = "mor";
+const user_age2 = 32;
+
+const user_name3 = "datter";
+const user_age3 = 7;
+
+const user_name4 = "sønn";
+const user_age4 = 2;
+
+document.getElementById("name").innerHTML =
+user_name1 + " " + user_age1 + "<br>" +
+user_name2 + " " + user_age2 + "<br>" +
+user_name3 + " " + user_age3 + "<br>" +
+user_name4 + " " + user_age4;
+
+const avg_age = (user_age1 + user_age2 + user_age3 + user_age4) / 4;
+
+document.getElementById("avg_age").innerHTML = "Gjennomsnittsalderen er " + avg_age + " år.";
+</script>
