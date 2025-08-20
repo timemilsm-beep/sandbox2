@@ -1,0 +1,35 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables cheat sheet</title>
+</head>
+<body>
+    <p id="navn"></p>
+    <p id="alder"></p>
+    <p id="messege"></p>
+    <script>
+        //min første variable
+        const name = "tim"
+        //min første console.log()
+        console.log(name)
+        //min første utskrift
+        document.getElementById("navn").innerHTML = name
+        //fødselsår
+        let birthyear = 2003
+        //år
+        let year = 2025
+        //utregning av min alder basert på variablene birthyear og year
+        let age = year - birthyear
+
+        console.log(age)
+        //kontaktinering
+
+        document.getElementById("alder").innerHTML = age
+        document.getElementById("messege").innerHTML = "Hei, jeg heter " + name + " og jeg er " + age + " år gammel."
+
+
+    </script>
+</body>
+</html>
