@@ -35,9 +35,7 @@
         </p>
     </footer>
 
-    
-    <script>
-        //script med tre t`er
+    <scripttt>
         //Variabel with company name
         const company = "Programmeriet"
 
@@ -49,8 +47,7 @@
         ]
 
         //Secret keys to access url and images
-        //rettet "img til "img"
-        let images_folder = "img"
+        let images_folder = "img
         let secret_key = 0
         let ak_key
         
@@ -62,8 +59,7 @@
             ak_key = secret_key + 1
         }
         const safe_images_folder = images_folder += ak_key
-        console.log("Image folder: " + safe_images_folder)
-        //console.log ikke console.logg
+        console.logg("Image folder: " + safe_images_folder)
 
         let HTML_employees = ""
 
@@ -76,9 +72,8 @@
                     <p>${e.email}</p>
                 </article>`)
 
-                document.getElementById("employee_list").innerHTML = HTML_employees
+                document.getElementbyId("employee_list").innerHTML = HTML_employeeees
         }
-        //rettet document.getElementbyId til document.getElementById og HTML_employeeees til HTML_employees
 
         //System prints
         document.getElementById("companyname").innerHTML = company
